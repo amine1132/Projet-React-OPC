@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  font-size: 18px;
+}
+
+.main {
+  /* max-width: 95%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 60px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+  .main {
+    margin: 0 20px;
+  }
+}

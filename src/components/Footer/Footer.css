@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28.56px;
+  height: 209px;
+  background-color: #000;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container img {
+  width: 122px;
+  height: 40px;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-text {
+    font-size: 18px;
+  }
+}

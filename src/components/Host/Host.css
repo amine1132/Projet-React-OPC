@@ -1,0 +1,39 @@
+.housing-host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.host-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.host-name {
+  color: #ff6060;
+  font-weight: 500;
+}
+
+.host-img {
+  border-radius: 50%;
+  width: 54px;
+}
+
+.host-rating {
+  width: 196px;
+  text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+  .housing-host {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .host-rating {
+    text-align: start;
+  }
+}

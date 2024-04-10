@@ -1,0 +1,34 @@
+.error-title {
+  color: #ff6060;
+  font-size: 300px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.error-msg {
+  color: #ff6060;
+  font-size: 30px;
+}
+
+.back-link {
+  cursor: pointer;
+  margin-top: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .error-container {
+    margin-top: 50px;
+  }
+  .error-title {
+    font-size: 95px;
+  }
+
+  .error-msg {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .back-link {
+    font-size: 14px;
+  }
+}
