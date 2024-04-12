@@ -18,13 +18,16 @@ h1 {
 @media screen and (max-width: 768px) {
   .banner {
     height: 125px;
+    justify-content: flex-start;
   }
 
   .banner-about {
     height: 250px;
   }
 
-  h1 {
+  .banner h1 {
     font-size: 24px;
+    margin-left: 20px;
+    min-width: 221px;
   }
 }

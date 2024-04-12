@@ -20,4 +20,7 @@
   .tag {
     font-size: 12px;
   }
+  .housing-tags {
+    flex-wrap: wrap;
+  }
 }

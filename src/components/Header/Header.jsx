@@ -9,11 +9,17 @@ const Header = () => {
     <header className="header">
       <img src={Logo} alt="" />
       <ul className="links">
-        <NavLink to="/accueil" className={location.pathname === "/accueil" ? "active" : ""}>
+        <NavLink
+          to="/accueil"
+          className={location.pathname === "/accueil" ? "active" : ""}
+        >
           <li>Accueil</li>
         </NavLink>
-        <NavLink to="/apropos" className={location.pathname === "/apropos" ? "active" : ""}>
-          <li>A propos</li>
+        <NavLink
+          to="/apropos"
+          className={location.pathname === "/apropos" ? "active" : ""}
+        >
+          <li>A Propos</li>
         </NavLink>
       </ul>
     </header>
